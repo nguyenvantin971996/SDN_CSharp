@@ -1,0 +1,115 @@
+C:\Users\Jack Smoke\Desktop\Current\workspace\C#\Routing Application\Routing Application\bin\Debug\Routing Application.exe.config
+C:\Users\Jack Smoke\Desktop\Current\workspace\C#\Routing Application\Routing Application\bin\Debug\Routing Application.exe
+C:\Users\Jack Smoke\Desktop\Current\workspace\C#\Routing Application\Routing Application\bin\Debug\Routing Application.pdb
+C:\Users\Jack Smoke\Desktop\Current\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing_Application.Properties.Resources.resources
+C:\Users\Jack Smoke\Desktop\Current\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing Application.csproj.GenerateResource.Cache
+C:\Users\Jack Smoke\Desktop\Current\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing Application.exe
+C:\Users\Jack Smoke\Desktop\Current\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing Application.pdb
+C:\Users\Jack Smoke\Desktop\Current\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing_Application.View.RouterProperties.resources
+C:\Users\Jack Smoke\Desktop\Current\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing_Application.View.WireProperties.resources
+C:\Users\Jack Smoke\Desktop\Current\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing_Application.Controls.WorkField.resources
+C:\Users\Jack Smoke\Desktop\Current\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing_Application.View.Statistic.resources
+C:\Users\Jack Smoke\Desktop\Current\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing_Application.View.Main.resources
+C:\Users\Jack Smoke\Desktop\Current\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing_Application.View.NewFile.resources
+C:\Users\Jack Smoke\Desktop\Current\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing_Application.View.Connectivity.resources
+C:\Users\Jack Smoke\Desktop\Current\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing Application.csprojResolveAssemblyReference.cache
+C:\Users\Jack Smoke\Desktop\Work\workspace\C#\Routing Application\Routing Application\bin\Debug\Routing Application.exe.config
+C:\Users\Jack Smoke\Desktop\Work\workspace\C#\Routing Application\Routing Application\bin\Debug\Routing Application.exe
+C:\Users\Jack Smoke\Desktop\Work\workspace\C#\Routing Application\Routing Application\bin\Debug\Routing Application.pdb
+C:\Users\Jack Smoke\Desktop\Work\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.Chart.resources
+C:\Users\Jack Smoke\Desktop\Work\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.PairSwitchResult.resources
+C:\Users\Jack Smoke\Desktop\Work\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.Statistic.resources
+C:\Users\Jack Smoke\Desktop\Work\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.Connectivity.resources
+C:\Users\Jack Smoke\Desktop\Work\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.RouterProperties.resources
+C:\Users\Jack Smoke\Desktop\Work\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.WireProperties.resources
+C:\Users\Jack Smoke\Desktop\Work\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.Main.resources
+C:\Users\Jack Smoke\Desktop\Work\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.NewFile.resources
+C:\Users\Jack Smoke\Desktop\Work\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing_Application.Controls.WorkField.resources
+C:\Users\Jack Smoke\Desktop\Work\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing_Application.Properties.Resources.resources
+C:\Users\Jack Smoke\Desktop\Work\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing Application.csproj.GenerateResource.Cache
+C:\Users\Jack Smoke\Desktop\Work\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing Application.exe
+C:\Users\Jack Smoke\Desktop\Work\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing Application.pdb
+C:\Users\Jack Smoke\Desktop\Work\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.EditText.resources
+C:\Users\Jack Smoke\Desktop\Work\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.PairSwitchShiftMode.resources
+C:\Users\Jack Smoke\Desktop\Work\workspace\C#\Routing Application\Routing Application\obj\Debug\Routing Application.csprojResolveAssemblyReference.cache
+C:\Users\nguye\Desktop\диплом\Routing Application\Routing Application\bin\Debug\Routing Application.exe.config
+C:\Users\nguye\Desktop\диплом\Routing Application\Routing Application\bin\Debug\Routing Application.exe
+C:\Users\nguye\Desktop\диплом\Routing Application\Routing Application\bin\Debug\Routing Application.pdb
+C:\Users\nguye\Desktop\диплом\Routing Application\Routing Application\obj\Debug\Routing Application.csprojAssemblyReference.cache
+C:\Users\nguye\Desktop\диплом\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.Chart.resources
+C:\Users\nguye\Desktop\диплом\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.EditText.resources
+C:\Users\nguye\Desktop\диплом\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.PairSwitchShiftMode.resources
+C:\Users\nguye\Desktop\диплом\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.PairSwitchResult.resources
+C:\Users\nguye\Desktop\диплом\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.Statistic.resources
+C:\Users\nguye\Desktop\диплом\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.Connectivity.resources
+C:\Users\nguye\Desktop\диплом\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.RouterProperties.resources
+C:\Users\nguye\Desktop\диплом\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.WireProperties.resources
+C:\Users\nguye\Desktop\диплом\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.Main.resources
+C:\Users\nguye\Desktop\диплом\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.NewFile.resources
+C:\Users\nguye\Desktop\диплом\Routing Application\Routing Application\obj\Debug\Routing_Application.Controls.WorkField.resources
+C:\Users\nguye\Desktop\диплом\Routing Application\Routing Application\obj\Debug\Routing_Application.Properties.Resources.resources
+C:\Users\nguye\Desktop\диплом\Routing Application\Routing Application\obj\Debug\Routing Application.csproj.GenerateResource.cache
+C:\Users\nguye\Desktop\диплом\Routing Application\Routing Application\obj\Debug\Routing Application.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\диплом\Routing Application\Routing Application\obj\Debug\Routing Application.exe
+C:\Users\nguye\Desktop\диплом\Routing Application\Routing Application\obj\Debug\Routing Application.pdb
+C:\Users\nguye\Desktop\тема диплома\Routing Application\Routing Application\bin\Debug\Routing Application.exe.config
+C:\Users\nguye\Desktop\тема диплома\Routing Application\Routing Application\bin\Debug\Routing Application.exe
+C:\Users\nguye\Desktop\тема диплома\Routing Application\Routing Application\bin\Debug\Routing Application.pdb
+C:\Users\nguye\Desktop\тема диплома\Routing Application\Routing Application\obj\Debug\Routing Application.csprojAssemblyReference.cache
+C:\Users\nguye\Desktop\тема диплома\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.Chart.resources
+C:\Users\nguye\Desktop\тема диплома\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.EditText.resources
+C:\Users\nguye\Desktop\тема диплома\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.PairSwitchShiftMode.resources
+C:\Users\nguye\Desktop\тема диплома\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.PairSwitchResult.resources
+C:\Users\nguye\Desktop\тема диплома\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.Statistic.resources
+C:\Users\nguye\Desktop\тема диплома\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.Connectivity.resources
+C:\Users\nguye\Desktop\тема диплома\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.RouterProperties.resources
+C:\Users\nguye\Desktop\тема диплома\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.WireProperties.resources
+C:\Users\nguye\Desktop\тема диплома\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.Main.resources
+C:\Users\nguye\Desktop\тема диплома\Routing Application\Routing Application\obj\Debug\Routing_Application.Forms.NewFile.resources
+C:\Users\nguye\Desktop\тема диплома\Routing Application\Routing Application\obj\Debug\Routing_Application.Controls.WorkField.resources
+C:\Users\nguye\Desktop\тема диплома\Routing Application\Routing Application\obj\Debug\Routing_Application.Properties.Resources.resources
+C:\Users\nguye\Desktop\тема диплома\Routing Application\Routing Application\obj\Debug\Routing Application.csproj.GenerateResource.cache
+C:\Users\nguye\Desktop\тема диплома\Routing Application\Routing Application\obj\Debug\Routing Application.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\тема диплома\Routing Application\Routing Application\obj\Debug\Routing Application.exe
+C:\Users\nguye\Desktop\тема диплома\Routing Application\Routing Application\obj\Debug\Routing Application.pdb
+C:\Users\nguye\Desktop\тема диплома\RA\Routing Application\bin\Debug\Routing Application.exe.config
+C:\Users\nguye\Desktop\тема диплома\RA\Routing Application\bin\Debug\Routing Application.exe
+C:\Users\nguye\Desktop\тема диплома\RA\Routing Application\bin\Debug\Routing Application.pdb
+C:\Users\nguye\Desktop\тема диплома\RA\Routing Application\obj\Debug\Routing Application.csprojAssemblyReference.cache
+C:\Users\nguye\Desktop\тема диплома\RA\Routing Application\obj\Debug\Routing_Application.Forms.Chart.resources
+C:\Users\nguye\Desktop\тема диплома\RA\Routing Application\obj\Debug\Routing_Application.Forms.EditText.resources
+C:\Users\nguye\Desktop\тема диплома\RA\Routing Application\obj\Debug\Routing_Application.Forms.PairSwitchShiftMode.resources
+C:\Users\nguye\Desktop\тема диплома\RA\Routing Application\obj\Debug\Routing_Application.Forms.PairSwitchResult.resources
+C:\Users\nguye\Desktop\тема диплома\RA\Routing Application\obj\Debug\Routing_Application.Forms.Statistic.resources
+C:\Users\nguye\Desktop\тема диплома\RA\Routing Application\obj\Debug\Routing_Application.Forms.Connectivity.resources
+C:\Users\nguye\Desktop\тема диплома\RA\Routing Application\obj\Debug\Routing_Application.Forms.RouterProperties.resources
+C:\Users\nguye\Desktop\тема диплома\RA\Routing Application\obj\Debug\Routing_Application.Forms.WireProperties.resources
+C:\Users\nguye\Desktop\тема диплома\RA\Routing Application\obj\Debug\Routing_Application.Forms.Main.resources
+C:\Users\nguye\Desktop\тема диплома\RA\Routing Application\obj\Debug\Routing_Application.Forms.NewFile.resources
+C:\Users\nguye\Desktop\тема диплома\RA\Routing Application\obj\Debug\Routing_Application.Controls.WorkField.resources
+C:\Users\nguye\Desktop\тема диплома\RA\Routing Application\obj\Debug\Routing_Application.Properties.Resources.resources
+C:\Users\nguye\Desktop\тема диплома\RA\Routing Application\obj\Debug\Routing Application.csproj.GenerateResource.cache
+C:\Users\nguye\Desktop\тема диплома\RA\Routing Application\obj\Debug\Routing Application.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\тема диплома\RA\Routing Application\obj\Debug\Routing Application.exe
+C:\Users\nguye\Desktop\тема диплома\RA\Routing Application\obj\Debug\Routing Application.pdb
+C:\Users\nguye\Desktop\диплом\RA\Routing Application\bin\Debug\Routing Application.exe.config
+C:\Users\nguye\Desktop\диплом\RA\Routing Application\bin\Debug\Routing Application.exe
+C:\Users\nguye\Desktop\диплом\RA\Routing Application\bin\Debug\Routing Application.pdb
+C:\Users\nguye\Desktop\диплом\RA\Routing Application\obj\Debug\Routing Application.csprojAssemblyReference.cache
+C:\Users\nguye\Desktop\диплом\RA\Routing Application\obj\Debug\Routing_Application.Forms.Chart.resources
+C:\Users\nguye\Desktop\диплом\RA\Routing Application\obj\Debug\Routing_Application.Forms.EditText.resources
+C:\Users\nguye\Desktop\диплом\RA\Routing Application\obj\Debug\Routing_Application.Forms.PairSwitchShiftMode.resources
+C:\Users\nguye\Desktop\диплом\RA\Routing Application\obj\Debug\Routing_Application.Forms.PairSwitchResult.resources
+C:\Users\nguye\Desktop\диплом\RA\Routing Application\obj\Debug\Routing_Application.Forms.Statistic.resources
+C:\Users\nguye\Desktop\диплом\RA\Routing Application\obj\Debug\Routing_Application.Forms.Connectivity.resources
+C:\Users\nguye\Desktop\диплом\RA\Routing Application\obj\Debug\Routing_Application.Forms.RouterProperties.resources
+C:\Users\nguye\Desktop\диплом\RA\Routing Application\obj\Debug\Routing_Application.Forms.WireProperties.resources
+C:\Users\nguye\Desktop\диплом\RA\Routing Application\obj\Debug\Routing_Application.Forms.Main.resources
+C:\Users\nguye\Desktop\диплом\RA\Routing Application\obj\Debug\Routing_Application.Forms.NewFile.resources
+C:\Users\nguye\Desktop\диплом\RA\Routing Application\obj\Debug\Routing_Application.Controls.WorkField.resources
+C:\Users\nguye\Desktop\диплом\RA\Routing Application\obj\Debug\Routing_Application.Properties.Resources.resources
+C:\Users\nguye\Desktop\диплом\RA\Routing Application\obj\Debug\Routing Application.csproj.GenerateResource.cache
+C:\Users\nguye\Desktop\диплом\RA\Routing Application\obj\Debug\Routing Application.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\диплом\RA\Routing Application\obj\Debug\Routing Application.exe
+C:\Users\nguye\Desktop\диплом\RA\Routing Application\obj\Debug\Routing Application.pdb
+C:\Users\nguye\Desktop\тема диплома\RA\Routing Application\obj\Debug\Routing_Application.Forms.GA.resources

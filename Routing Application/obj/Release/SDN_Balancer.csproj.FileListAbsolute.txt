@@ -1,0 +1,41 @@
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\RA\Routing Application\bin\Release\Routing Application.exe.config
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\RA\Routing Application\bin\Release\Routing Application.exe
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\RA\Routing Application\bin\Release\Routing Application.pdb
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\RA\Routing Application\obj\Release\Routing_Application.Forms.Balancer.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\RA\Routing Application\obj\Release\Routing_Application.Forms.GA_Yen.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\RA\Routing Application\obj\Release\Routing_Application.Forms.Chart.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\RA\Routing Application\obj\Release\Routing_Application.Forms.EditText.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\RA\Routing Application\obj\Release\Routing_Application.Forms.GA.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\RA\Routing Application\obj\Release\Routing_Application.Forms.Statistic.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\RA\Routing Application\obj\Release\Routing_Application.Forms.Connectivity.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\RA\Routing Application\obj\Release\Routing_Application.Forms.RouterProperties.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\RA\Routing Application\obj\Release\Routing_Application.Forms.WireProperties.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\RA\Routing Application\obj\Release\Routing_Application.Forms.Main.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\RA\Routing Application\obj\Release\Routing_Application.Forms.NewFile.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\RA\Routing Application\obj\Release\Routing_Application.Controls.WorkField.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\RA\Routing Application\obj\Release\Routing_Application.Properties.Resources.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\RA\Routing Application\obj\Release\SDN_Balancer.csproj.GenerateResource.cache
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\RA\Routing Application\obj\Release\SDN_Balancer.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\RA\Routing Application\obj\Release\Routing Application.exe
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\RA\Routing Application\obj\Release\Routing Application.pdb
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\SDN Balancer\Program\Routing Application\bin\Release\Routing Application.exe.config
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\SDN Balancer\Program\Routing Application\bin\Release\Routing Application.exe
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\SDN Balancer\Program\Routing Application\bin\Release\Routing Application.pdb
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\SDN Balancer\Program\Routing Application\obj\Release\SDN_Balancer.csprojAssemblyReference.cache
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\SDN Balancer\Program\Routing Application\obj\Release\Routing_Application.Forms.Balancer.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\SDN Balancer\Program\Routing Application\obj\Release\Routing_Application.Forms.GA_Yen.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\SDN Balancer\Program\Routing Application\obj\Release\Routing_Application.Forms.Chart.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\SDN Balancer\Program\Routing Application\obj\Release\Routing_Application.Forms.EditText.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\SDN Balancer\Program\Routing Application\obj\Release\Routing_Application.Forms.GA.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\SDN Balancer\Program\Routing Application\obj\Release\Routing_Application.Forms.Statistic.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\SDN Balancer\Program\Routing Application\obj\Release\Routing_Application.Forms.Connectivity.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\SDN Balancer\Program\Routing Application\obj\Release\Routing_Application.Forms.RouterProperties.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\SDN Balancer\Program\Routing Application\obj\Release\Routing_Application.Forms.WireProperties.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\SDN Balancer\Program\Routing Application\obj\Release\Routing_Application.Forms.Main.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\SDN Balancer\Program\Routing Application\obj\Release\Routing_Application.Forms.NewFile.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\SDN Balancer\Program\Routing Application\obj\Release\Routing_Application.Controls.WorkField.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\SDN Balancer\Program\Routing Application\obj\Release\Routing_Application.Properties.Resources.resources
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\SDN Balancer\Program\Routing Application\obj\Release\SDN_Balancer.csproj.GenerateResource.cache
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\SDN Balancer\Program\Routing Application\obj\Release\SDN_Balancer.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\SDN Balancer\Program\Routing Application\obj\Release\Routing Application.exe
+C:\Users\nguye\Desktop\тема диплома\Диплом ГА\SDN Balancer\Program\Routing Application\obj\Release\Routing Application.pdb
