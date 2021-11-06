@@ -139,7 +139,7 @@ namespace Routing_Application.DAL
                         population_2[i, j] = population[i].code_path[j] + population[i].velocity[j];
                     }
                 }
-                //scale to -1;1
+                //scale to -1;1;ti le
                 for (int i = 0; i < N; i++)
                 {
                     double mn = double.MaxValue;
