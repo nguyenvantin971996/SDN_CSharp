@@ -77,7 +77,24 @@ namespace Routing_Application.DAL
                             for (int j2 = 0; j2 < m; j2++)
                             {
                                 priority[j2] = population[i].code_path[j2] + beta*(population[j].code_path[j2] - population[i].code_path[j2]) + a*e;
-                                priority[j2] = priority[j2] - (int)priority[j2];
+                            }
+                            //scale to -1;1
+                            double mn = double.MaxValue;
+                            double mx = double.MinValue;
+                            for (int j2 = 0; j2 < m; j2++)
+                            {
+                                if (mn > priority[j2])
+                                {
+                                    mn = priority[j2];
+                                }
+                                if (mx < priority[j2])
+                                {
+                                    mx = priority[j2];
+                                }
+                            }
+                            for (int j2 = 0; j2 < m; j2++)
+                            {
+                                priority[j2] = -1 + 2 * (priority[j2] - mn) / (mx - mn);
                             }
                             Individual path33 = Particle_Decoding(startRouter, endRouter, priority, list_rtrs);
                             if (path33.path_wires.Count != 0)

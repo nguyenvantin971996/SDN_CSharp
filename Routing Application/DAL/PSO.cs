@@ -137,7 +137,27 @@ namespace Routing_Application.DAL
                     for (int j = 0; j < m; j++)
                     {
                         population_2[i, j] = population[i].code_path[j] + population[i].velocity[j];
-                        population_2[i, j] = population_2[i, j] - (int)population_2[i, j];
+                    }
+                }
+                //scale to -1;1
+                for (int i = 0; i < N; i++)
+                {
+                    double mn = double.MaxValue;
+                    double mx = double.MinValue;
+                    for (int j = 0; j < m; j++)
+                    {
+                        if (mn > population_2[i, j])
+                        {
+                            mn = population_2[i, j];
+                        }
+                        if (mx < population_2[i, j])
+                        {
+                            mx = population_2[i, j];
+                        }
+                    }
+                    for (int j = 0; j < m; j++)
+                    {
+                        population_2[i, j] = -1 + 2 * (population_2[i, j] - mn) / (mx - mn);
                     }
                 }
                 //kiem tra invalid populations
