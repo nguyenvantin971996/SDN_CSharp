@@ -17,6 +17,8 @@ namespace Routing_Application.DAL
         // основной метод
         public List<Individual> Paths_PSO(Router startRouter, Router endRouter, List<Individual> population_starting, int N, double w, double c1, double c2, int Max, int K_paths)
         {
+            K_paths = K_paths + 2;
+            List<Individual> best_populations = new List<Individual>();
             //danh sach tat ca cac canh
             List<Wire> list_wires = network.Wires;
             //danh sach tat ca cac dinh
@@ -184,16 +186,45 @@ namespace Routing_Application.DAL
                         population[i].code_path[j]=population_2[i, j];
                     }
                 }
+                //tim k duong tot nhat tai iteration thu k
+                population.Sort(new NameCompare());
+                List<Individual> best = new List<Individual>();
+                best.Add(population[0].DeepCopy());
+                for (int i = 1; i < N; i++)
+                {
+                    if (best.Count == K_paths)
+                    {
+                        break;
+                    }
+                    bool dk = true;
+                    for (int j = 0; j < best.Count; j++)
+                    {
+                        if (Enumerable.SequenceEqual(population[i].path_wires, best[j].path_wires))
+                        {
+                            dk = false;
+                            break;
+                        }
+                    }
+                    if (dk)
+                    {
+                        best.Add(population[i].DeepCopy());
+                    }
+                }
+                foreach (Individual indiv in best)
+                {
+                    best_populations.Add(indiv.DeepCopy());
+                }
             }
-            population.Sort(new NameCompare());
-            List<Individual> population_noRepeat = new List<Individual>();
-            population_noRepeat.Add(population[0].DeepCopy());
-            for (int i = 1; i < N; i++)
+            //tim k duong tot nhat
+            best_populations.Sort(new NameCompare());
+            List<Individual> population_norepeat = new List<Individual>();
+            population_norepeat.Add(best_populations[0].DeepCopy());
+            for (int i = 1; i < best_populations.Count; i++)
             {
                 bool dk = true;
-                for (int j = 0; j < population_noRepeat.Count; j++)
+                for (int j = 0; j < population_norepeat.Count; j++)
                 {
-                    if (Enumerable.SequenceEqual(population[i].path_wires, population_noRepeat[j].path_wires))
+                    if (Enumerable.SequenceEqual(best_populations[i].path_wires, population_norepeat[j].path_wires))
                     {
                         dk = false;
                         break;
@@ -201,10 +232,10 @@ namespace Routing_Application.DAL
                 }
                 if (dk)
                 {
-                    population_noRepeat.Add(population[i].DeepCopy());
+                    population_norepeat.Add(best_populations[i].DeepCopy());
                 }
             }
-            return population_noRepeat;
+            return population_norepeat;
         }
     }
 }
