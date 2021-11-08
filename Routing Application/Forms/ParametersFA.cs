@@ -19,7 +19,7 @@ namespace Routing_Application.Forms
 
         private void ParametersFA_Load(object sender, EventArgs e)
         {
-            alpha.Text = "0,2";
+            alpha.Text = "2";
             beta.Text = "2";
             iterations.Text = "100";
             gamma.Text = "1";

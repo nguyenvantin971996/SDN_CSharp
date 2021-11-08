@@ -92,7 +92,7 @@ namespace Routing_Application.DAL
                         }
                     }
                         //scale to -1;1
-                    double mn = double.MaxValue;
+         laplai:    double mn = double.MaxValue;
                     double mx = double.MinValue;
                     for (int j2 = 0; j2 < m; j2++)
                     {
@@ -105,17 +105,18 @@ namespace Routing_Application.DAL
                             mx = priority[j2];
                         }
                     }
+                    double[] priority_2 = new double[m];
                     for (int j2 = 0; j2 < m; j2++)
                     {
-                        priority[j2] = -1 + 2 * (priority[j2] - mn) / (mx - mn);
+                        priority_2[j2] = -1 + 2 * (priority[j2] - mn) / (mx - mn);
                     }
-                    Individual path33 = Particle_Decoding(startRouter, endRouter, priority, list_rtrs);
+                    Individual path33 = Particle_Decoding(startRouter, endRouter, priority_2, list_rtrs);
                     if (path33.path_wires.Count != 0)
                     {
                         population[i].code_path.Clear();
                         for (int j3 = 0; j3 < m; j3++)
                         {
-                            population[i].code_path.Add(priority[j3]);
+                            population[i].code_path.Add(priority_2[j3]);
                         }
                         double leng = 0;
                         population[i].path_wires.Clear();
@@ -125,6 +126,15 @@ namespace Routing_Application.DAL
                             leng = leng + wire.Criterion;
                         }
                         population[i].fitness = leng;
+                    }
+                    else
+                    {
+                        double e_2 = ran.NextDouble();
+                        for (int j2 = 0; j2 < m; j2++)
+                        {
+                            priority[j2] = priority[j2]-a*e+a*e_2;
+                        }
+                        goto laplai;
                     }
                 }
                 //tim k duong tot nhat tai iteration thu k
