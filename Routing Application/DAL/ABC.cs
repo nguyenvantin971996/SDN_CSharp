@@ -110,7 +110,7 @@ namespace Routing_Application.DAL
                         goto chonlai;
                     }
                     //chon gia tri ngau nhien fi
-                    double fi = ran.NextDouble() * 2 - 1;
+                    double fi = ran.NextDouble();
                     //sinh giai phap moi
                     for (int j = 0; j < m; j++)
                     {
@@ -244,7 +244,7 @@ namespace Routing_Application.DAL
                         goto chonlai1;
                     }
                     //chon gia tri ngau nhien fi
-                    double fi = ran.NextDouble() * 2 - 1;
+                    double fi = ran.NextDouble();
                     //sinh giai phap moi
                     for (int j = 0; j < m; j++)
                     {
