@@ -32,6 +32,7 @@ namespace Routing_Application.Forms
         private Statistic statisticTable;             // окно статистики
         private List<int> tt = new List<int>() ;
         private List<int> ttt = new List<int>();
+        private List<double> load_1 = new List<double>();
         private List<int> crt = new List<int>();
         private List<Individual> trs = new List<Individual>();
         private List<Individual> trss = new List<Individual>();
@@ -1167,6 +1168,7 @@ namespace Routing_Application.Forms
             trss.Clear();
             tt.Clear();
             ttt.Clear();
+            load_1.Clear();
         }
 
         // выравнивание узлов по горизонтали
@@ -1850,11 +1852,17 @@ namespace Routing_Application.Forms
                     else
                     {
                         CreateKPaths create = new CreateKPaths(CurrentField.Network);
-                        create.Create(population_noRepeat, K);
+                        load_1 = create.Create(population_noRepeat, K);
                         CurrentField.ToolKit.UpdateField();
                     }
                 }
             }
+        }
+
+        private void char_paper_eng_1(object sender, EventArgs e)
+        {
+            Chart_1 chartForm = new Chart_1(load_1);
+            chartForm.ShowDialog(this);
         }
     }
 }

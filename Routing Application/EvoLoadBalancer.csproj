@@ -106,6 +106,12 @@
     <Compile Include="Forms\Balancer.Designer.cs">
       <DependentUpon>Balancer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\ChartForm_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ChartForm_1.Designer.cs">
+      <DependentUpon>ChartForm_1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\GA_Yen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -215,6 +221,9 @@
     <Compile Include="View\Drawing.cs" />
     <EmbeddedResource Include="Forms\Balancer.resx">
       <DependentUpon>Balancer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChartForm_1.resx">
+      <DependentUpon>ChartForm_1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\GA_Yen.resx">
       <DependentUpon>GA_Yen.cs</DependentUpon>

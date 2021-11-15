@@ -19,7 +19,7 @@ namespace Routing_Application.Forms
 
         private void ParametersABC_Load(object sender, EventArgs e)
         {
-            iterations.Text = "50";
+            iterations.Text = "5";
             k.Text = "4";
         }
 

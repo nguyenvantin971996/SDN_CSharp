@@ -11,11 +11,12 @@ namespace Routing_Application.DAL
     {
         public Random ran = new Random();
         private Random randColor = new Random();
+        public List<Color> mausac = new List<Color> { Color.Green, Color.Red, Color.Blue, Color.Yellow, Color.Orange, Color.Violet };
         public CreateKPaths(Network network) : base(network)
         {
         }
         // основной метод
-        public void Create(List<Individual> population_noRepeat ,int K_paths)
+        public List<double> Create(List<Individual> population_noRepeat ,int K_paths)
         {
             // нахождение k-кратчайшие пути
             List<Individual> PATHS = new List<Individual>();
@@ -124,21 +125,13 @@ namespace Routing_Application.DAL
             List<Color> color = new List<Color>();
             for (int k1 = 0; k1 < K_paths; k1++)
             {
-                lap: Color c = Color.FromArgb(randColor.Next(255), randColor.Next(255), randColor.Next(255));
-                if (!color.Contains(c))
-                {
-                    color.Add(c);
                     foreach (Wire wire in PATHS[k1].path_wires)
                     {
-                        Pen ppp = new Pen(c, 4 * (wire.NumberRepeat));
+                        Pen ppp = new Pen(mausac[k1], 4 * (wire.NumberRepeat));
                         wire.Pen = ppp;
                     }
-                }
-                else
-                {
-                    goto lap;
-                }
             }
+            return ketqua_0;
         }
     }
 }

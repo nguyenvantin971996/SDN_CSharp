@@ -19,7 +19,7 @@ namespace Routing_Application.Forms
 
         private void ParametersGenerate_Load(object sender, EventArgs e)
         {
-            population.Text = "100";
+            population.Text = "10";
         }
 
         private void button_ok_Click(object sender, EventArgs e)

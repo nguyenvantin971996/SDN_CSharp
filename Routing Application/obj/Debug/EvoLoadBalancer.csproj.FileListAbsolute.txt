@@ -52,3 +52,4 @@ C:\Users\nguye\Desktop\SDN\SomePrograms\SDN_CSharp\Routing Application\obj\Debug
 C:\Users\nguye\Desktop\SDN\SomePrograms\SDN_CSharp\Routing Application\obj\Debug\EvoLoadBalancer.csproj.CoreCompileInputs.cache
 C:\Users\nguye\Desktop\SDN\SomePrograms\SDN_CSharp\Routing Application\obj\Debug\Routing Application.exe
 C:\Users\nguye\Desktop\SDN\SomePrograms\SDN_CSharp\Routing Application\obj\Debug\Routing Application.pdb
+C:\Users\nguye\Desktop\SDN\SomePrograms\SDN_CSharp\Routing Application\obj\Debug\Routing_Application.Forms.Chart_1.resources

@@ -32,29 +32,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.ctlMainMenu = new System.Windows.Forms.MenuStrip();
             this.menuFile = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuFileNew = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuFileOpen = new System.Windows.Forms.ToolStripMenuItem();
             this.menuFileSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.menuFileSaveAs = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuFileSave = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuFileExit = new System.Windows.Forms.ToolStripMenuItem();
             this.menuTools = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuToolsEdit = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuToolsPutRouter = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuToolsInsertWire = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuToolsCreateText = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.menuToolsHorAlignment = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuToolsVertAlignment = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
-            this.menuToolsReset = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuToolsDeleteAll = new System.Windows.Forms.ToolStripMenuItem();
             this.menuAlgorithms = new System.Windows.Forms.ToolStripMenuItem();
-            this.GA = new System.Windows.Forms.ToolStripMenuItem();
-            this.PSO = new System.Windows.Forms.ToolStripMenuItem();
-            this.FA = new System.Windows.Forms.ToolStripMenuItem();
-            this.ABC = new System.Windows.Forms.ToolStripMenuItem();
-            this.ACO = new System.Windows.Forms.ToolStripMenuItem();
             this.menuOptions = new System.Windows.Forms.ToolStripMenuItem();
             this.menuOptionsAutoWeight = new System.Windows.Forms.ToolStripMenuItem();
             this.menuOptionsToolBar = new System.Windows.Forms.ToolStripMenuItem();
@@ -91,23 +73,34 @@
             this.btnToolTextLabel = new System.Windows.Forms.ToolStripButton();
             this.btnToolDeleteAll = new System.Windows.Forms.ToolStripButton();
             this.btnToolReset = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_chartt = new System.Windows.Forms.ToolStripButton();
-            this.generate_population = new System.Windows.Forms.ToolStripButton();
-            this.remove_population = new System.Windows.Forms.ToolStripButton();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton_Ga = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_PSO = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_FA = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_ABC = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton_ACO = new System.Windows.Forms.ToolStripButton();
-            this.create_paths = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.menuFileNew = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuFileOpen = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuFileSaveAs = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuFileSave = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuFileExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuToolsEdit = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuToolsPutRouter = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuToolsInsertWire = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuToolsCreateText = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuToolsHorAlignment = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuToolsVertAlignment = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuToolsReset = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuToolsDeleteAll = new System.Windows.Forms.ToolStripMenuItem();
+            this.GA = new System.Windows.Forms.ToolStripMenuItem();
+            this.PSO = new System.Windows.Forms.ToolStripMenuItem();
+            this.FA = new System.Windows.Forms.ToolStripMenuItem();
+            this.ABC = new System.Windows.Forms.ToolStripMenuItem();
+            this.ACO = new System.Windows.Forms.ToolStripMenuItem();
+            this.generateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.removeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.createPathToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ctlMainMenu.SuspendLayout();
             this.ctlStatusBarGrid.SuspendLayout();
             this.ctlContextMenu.SuspendLayout();
             this.ctlStatusBarStatus.SuspendLayout();
             this.ctlStatusBarFile.SuspendLayout();
             this.ctlToolBar.SuspendLayout();
-            this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // ctlMainMenu
@@ -144,50 +137,10 @@
             this.menuFile.Text = "File";
             this.menuFile.DropDownOpening += new System.EventHandler(this.menuFile_DropDownOpening);
             // 
-            // menuFileNew
-            // 
-            this.menuFileNew.Image = global::Routing_Application.Properties.Resources.document_new;
-            this.menuFileNew.Name = "menuFileNew";
-            this.menuFileNew.Size = new System.Drawing.Size(145, 26);
-            this.menuFileNew.Text = "New ...";
-            this.menuFileNew.Click += new System.EventHandler(this.MenuFileNew_Click);
-            // 
-            // menuFileOpen
-            // 
-            this.menuFileOpen.Image = global::Routing_Application.Properties.Resources.document_open;
-            this.menuFileOpen.Name = "menuFileOpen";
-            this.menuFileOpen.Size = new System.Drawing.Size(145, 26);
-            this.menuFileOpen.Text = "Open";
-            this.menuFileOpen.Click += new System.EventHandler(this.MenuFileOpen_Click);
-            // 
             // menuFileSeparator1
             // 
             this.menuFileSeparator1.Name = "menuFileSeparator1";
             this.menuFileSeparator1.Size = new System.Drawing.Size(142, 6);
-            // 
-            // menuFileSaveAs
-            // 
-            this.menuFileSaveAs.Image = global::Routing_Application.Properties.Resources.save;
-            this.menuFileSaveAs.Name = "menuFileSaveAs";
-            this.menuFileSaveAs.Size = new System.Drawing.Size(145, 26);
-            this.menuFileSaveAs.Text = "Save as ...";
-            this.menuFileSaveAs.Click += new System.EventHandler(this.MenuFileSaveAs_Click);
-            // 
-            // menuFileSave
-            // 
-            this.menuFileSave.Image = global::Routing_Application.Properties.Resources.document_save_as;
-            this.menuFileSave.Name = "menuFileSave";
-            this.menuFileSave.Size = new System.Drawing.Size(145, 26);
-            this.menuFileSave.Text = "Save";
-            this.menuFileSave.Click += new System.EventHandler(this.MenuFileSave_Click);
-            // 
-            // menuFileExit
-            // 
-            this.menuFileExit.Image = global::Routing_Application.Properties.Resources.exit;
-            this.menuFileExit.Name = "menuFileExit";
-            this.menuFileExit.Size = new System.Drawing.Size(145, 26);
-            this.menuFileExit.Text = "Exit";
-            this.menuFileExit.Click += new System.EventHandler(this.MenuFileExit_Click);
             // 
             // menuTools
             // 
@@ -207,79 +160,15 @@
             this.menuTools.Size = new System.Drawing.Size(57, 50);
             this.menuTools.Text = "Tools";
             // 
-            // menuToolsEdit
-            // 
-            this.menuToolsEdit.Image = global::Routing_Application.Properties.Resources.cursor;
-            this.menuToolsEdit.Name = "menuToolsEdit";
-            this.menuToolsEdit.Size = new System.Drawing.Size(226, 26);
-            this.menuToolsEdit.Text = "Edit";
-            this.menuToolsEdit.Click += new System.EventHandler(this.menuToolsEdit_Click);
-            // 
-            // menuToolsPutRouter
-            // 
-            this.menuToolsPutRouter.Image = global::Routing_Application.Properties.Resources.router16;
-            this.menuToolsPutRouter.Name = "menuToolsPutRouter";
-            this.menuToolsPutRouter.Size = new System.Drawing.Size(226, 26);
-            this.menuToolsPutRouter.Text = "Insert router";
-            this.menuToolsPutRouter.Click += new System.EventHandler(this.menuToolsInsertRouter_Click);
-            // 
-            // menuToolsInsertWire
-            // 
-            this.menuToolsInsertWire.Image = ((System.Drawing.Image)(resources.GetObject("menuToolsInsertWire.Image")));
-            this.menuToolsInsertWire.Name = "menuToolsInsertWire";
-            this.menuToolsInsertWire.Size = new System.Drawing.Size(226, 26);
-            this.menuToolsInsertWire.Text = "Insert wire";
-            this.menuToolsInsertWire.Click += new System.EventHandler(this.menuToolsInsertWire_Click);
-            // 
-            // menuToolsCreateText
-            // 
-            this.menuToolsCreateText.Image = global::Routing_Application.Properties.Resources.Editing_Text_icon;
-            this.menuToolsCreateText.Name = "menuToolsCreateText";
-            this.menuToolsCreateText.Size = new System.Drawing.Size(226, 26);
-            this.menuToolsCreateText.Text = "Text";
-            this.menuToolsCreateText.Click += new System.EventHandler(this.menuToolsCreateText_Click);
-            // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
             this.toolStripSeparator3.Size = new System.Drawing.Size(223, 6);
             // 
-            // menuToolsHorAlignment
-            // 
-            this.menuToolsHorAlignment.Image = ((System.Drawing.Image)(resources.GetObject("menuToolsHorAlignment.Image")));
-            this.menuToolsHorAlignment.Name = "menuToolsHorAlignment";
-            this.menuToolsHorAlignment.Size = new System.Drawing.Size(226, 26);
-            this.menuToolsHorAlignment.Text = "Horizontal alignment";
-            this.menuToolsHorAlignment.Click += new System.EventHandler(this.menuToolsHorAlignment_Click);
-            // 
-            // menuToolsVertAlignment
-            // 
-            this.menuToolsVertAlignment.Image = ((System.Drawing.Image)(resources.GetObject("menuToolsVertAlignment.Image")));
-            this.menuToolsVertAlignment.Name = "menuToolsVertAlignment";
-            this.menuToolsVertAlignment.Size = new System.Drawing.Size(226, 26);
-            this.menuToolsVertAlignment.Text = "Vertical alignment";
-            this.menuToolsVertAlignment.Click += new System.EventHandler(this.menuToolsVertAlignment_Click);
-            // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(223, 6);
-            // 
-            // menuToolsReset
-            // 
-            this.menuToolsReset.Image = global::Routing_Application.Properties.Resources.power_reset_1847;
-            this.menuToolsReset.Name = "menuToolsReset";
-            this.menuToolsReset.Size = new System.Drawing.Size(226, 26);
-            this.menuToolsReset.Text = "Reset";
-            this.menuToolsReset.Click += new System.EventHandler(this.menuToolsReset_Click);
-            // 
-            // menuToolsDeleteAll
-            // 
-            this.menuToolsDeleteAll.Image = global::Routing_Application.Properties.Resources.cancel;
-            this.menuToolsDeleteAll.Name = "menuToolsDeleteAll";
-            this.menuToolsDeleteAll.Size = new System.Drawing.Size(226, 26);
-            this.menuToolsDeleteAll.Text = "Delete all";
-            this.menuToolsDeleteAll.Click += new System.EventHandler(this.menuToolsDeleteAll_Click);
             // 
             // menuAlgorithms
             // 
@@ -294,46 +183,6 @@
             this.menuAlgorithms.Size = new System.Drawing.Size(99, 50);
             this.menuAlgorithms.Text = "Algorithms";
             // 
-            // GA
-            // 
-            this.GA.Image = ((System.Drawing.Image)(resources.GetObject("GA.Image")));
-            this.GA.Name = "GA";
-            this.GA.Size = new System.Drawing.Size(112, 26);
-            this.GA.Text = "GA";
-            this.GA.Click += new System.EventHandler(this.toolStripButton_GA_Click);
-            // 
-            // PSO
-            // 
-            this.PSO.Image = ((System.Drawing.Image)(resources.GetObject("PSO.Image")));
-            this.PSO.Name = "PSO";
-            this.PSO.Size = new System.Drawing.Size(112, 26);
-            this.PSO.Text = "PSO";
-            this.PSO.Click += new System.EventHandler(this.toolStripButton_PSO_Click);
-            // 
-            // FA
-            // 
-            this.FA.Image = ((System.Drawing.Image)(resources.GetObject("FA.Image")));
-            this.FA.Name = "FA";
-            this.FA.Size = new System.Drawing.Size(112, 26);
-            this.FA.Text = "FA";
-            this.FA.Click += new System.EventHandler(this.toolStripButton_FA_Click);
-            // 
-            // ABC
-            // 
-            this.ABC.Image = ((System.Drawing.Image)(resources.GetObject("ABC.Image")));
-            this.ABC.Name = "ABC";
-            this.ABC.Size = new System.Drawing.Size(112, 26);
-            this.ABC.Text = "ABC";
-            this.ABC.Click += new System.EventHandler(this.toolStripButton_ABC_Click);
-            // 
-            // ACO
-            // 
-            this.ACO.Image = ((System.Drawing.Image)(resources.GetObject("ACO.Image")));
-            this.ACO.Name = "ACO";
-            this.ACO.Size = new System.Drawing.Size(112, 26);
-            this.ACO.Text = "ACO";
-            this.ACO.Click += new System.EventHandler(this.toolStripButton_ACO_Click);
-            // 
             // menuOptions
             // 
             this.menuOptions.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -341,7 +190,10 @@
             this.menuOptionsToolBar,
             this.menuOptionsFullMesh,
             this.menuOptionsCriterias,
-            this.menuOptionsConnectivity});
+            this.menuOptionsConnectivity,
+            this.generateToolStripMenuItem,
+            this.removeToolStripMenuItem,
+            this.createPathToolStripMenuItem});
             this.menuOptions.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.menuOptions.Name = "menuOptions";
             this.menuOptions.Size = new System.Drawing.Size(77, 50);
@@ -353,7 +205,7 @@
             this.menuOptionsAutoWeight.CheckOnClick = true;
             this.menuOptionsAutoWeight.CheckState = System.Windows.Forms.CheckState.Checked;
             this.menuOptionsAutoWeight.Name = "menuOptionsAutoWeight";
-            this.menuOptionsAutoWeight.Size = new System.Drawing.Size(166, 26);
+            this.menuOptionsAutoWeight.Size = new System.Drawing.Size(180, 26);
             this.menuOptionsAutoWeight.Text = "AutoWeight";
             this.menuOptionsAutoWeight.Click += new System.EventHandler(this.menuOptionsAutoWeight_Click);
             // 
@@ -363,7 +215,7 @@
             this.menuOptionsToolBar.CheckOnClick = true;
             this.menuOptionsToolBar.CheckState = System.Windows.Forms.CheckState.Checked;
             this.menuOptionsToolBar.Name = "menuOptionsToolBar";
-            this.menuOptionsToolBar.Size = new System.Drawing.Size(166, 26);
+            this.menuOptionsToolBar.Size = new System.Drawing.Size(180, 26);
             this.menuOptionsToolBar.Text = "ToolBar";
             this.menuOptionsToolBar.Click += new System.EventHandler(this.MenuOptionsToolBar_Click);
             // 
@@ -371,7 +223,7 @@
             // 
             this.menuOptionsFullMesh.CheckOnClick = true;
             this.menuOptionsFullMesh.Name = "menuOptionsFullMesh";
-            this.menuOptionsFullMesh.Size = new System.Drawing.Size(166, 26);
+            this.menuOptionsFullMesh.Size = new System.Drawing.Size(180, 26);
             this.menuOptionsFullMesh.Text = "FullMesh";
             this.menuOptionsFullMesh.Click += new System.EventHandler(this.menuOptionsFullMesh_Click);
             // 
@@ -383,7 +235,7 @@
             this.menuOptionsCriteriasDelay,
             this.menuOptionsCriteriasMetric});
             this.menuOptionsCriterias.Name = "menuOptionsCriterias";
-            this.menuOptionsCriterias.Size = new System.Drawing.Size(166, 26);
+            this.menuOptionsCriterias.Size = new System.Drawing.Size(180, 26);
             this.menuOptionsCriterias.Text = "Criterias";
             // 
             // menuOptionsCriteriasCapacity
@@ -419,7 +271,7 @@
             // menuOptionsConnectivity
             // 
             this.menuOptionsConnectivity.Name = "menuOptionsConnectivity";
-            this.menuOptionsConnectivity.Size = new System.Drawing.Size(166, 26);
+            this.menuOptionsConnectivity.Size = new System.Drawing.Size(180, 26);
             this.menuOptionsConnectivity.Text = "Connectivity";
             this.menuOptionsConnectivity.Click += new System.EventHandler(this.menuOptionsConnectivity_Click);
             // 
@@ -441,7 +293,7 @@
             this.ctlStatusBarGrid.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lblGreed,
             this.toolStripStatusLabel1});
-            this.ctlStatusBarGrid.Location = new System.Drawing.Point(1139, 673);
+            this.ctlStatusBarGrid.Location = new System.Drawing.Point(784, 673);
             this.ctlStatusBarGrid.Name = "ctlStatusBarGrid";
             this.ctlStatusBarGrid.Size = new System.Drawing.Size(177, 27);
             this.ctlStatusBarGrid.TabIndex = 5;
@@ -471,7 +323,7 @@
             this.ctlTabControl.Name = "ctlTabControl";
             this.ctlTabControl.Padding = new System.Drawing.Point(0, 0);
             this.ctlTabControl.SelectedIndex = 0;
-            this.ctlTabControl.Size = new System.Drawing.Size(1111, 555);
+            this.ctlTabControl.Size = new System.Drawing.Size(1300, 555);
             this.ctlTabControl.TabIndex = 2;
             this.ctlTabControl.SelectedIndexChanged += new System.EventHandler(this.ctlTabControl_SelectedIndexChanged);
             this.ctlTabControl.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ctlTabControl_KeyDown);
@@ -530,7 +382,7 @@
             this.lblWires});
             this.ctlStatusBarFile.Location = new System.Drawing.Point(156, 673);
             this.ctlStatusBarFile.Name = "ctlStatusBarFile";
-            this.ctlStatusBarFile.Size = new System.Drawing.Size(983, 27);
+            this.ctlStatusBarFile.Size = new System.Drawing.Size(628, 27);
             this.ctlStatusBarFile.SizingGrip = false;
             this.ctlStatusBarFile.TabIndex = 4;
             // 
@@ -586,9 +438,7 @@
             this.btnToolTextLabel,
             this.btnToolDeleteAll,
             this.btnToolReset,
-            this.toolStripButton_chartt,
-            this.generate_population,
-            this.remove_population});
+            this.toolStripButton1});
             this.ctlToolBar.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.ctlToolBar.Location = new System.Drawing.Point(0, 54);
             this.ctlToolBar.Name = "ctlToolBar";
@@ -733,159 +583,185 @@
             this.btnToolReset.ToolTipText = "Reset";
             this.btnToolReset.Click += new System.EventHandler(this.btnToolReset_Click);
             // 
-            // toolStripButton_chartt
+            // toolStripButton1
             // 
-            this.toolStripButton_chartt.AutoSize = false;
-            this.toolStripButton_chartt.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton_chartt.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.toolStripButton_chartt.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.toolStripButton_chartt.Image = global::Routing_Application.Properties.Resources.chart;
-            this.toolStripButton_chartt.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton_chartt.ImageTransparentColor = System.Drawing.Color.Transparent;
-            this.toolStripButton_chartt.Name = "toolStripButton_chartt";
-            this.toolStripButton_chartt.Size = new System.Drawing.Size(80, 50);
-            this.toolStripButton_chartt.Text = "toolStripButton_chartt";
-            this.toolStripButton_chartt.ToolTipText = "Chart";
-            this.toolStripButton_chartt.Click += new System.EventHandler(this.toolStripButton_chart_Click);
+            this.toolStripButton1.AutoSize = false;
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.toolStripButton1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.toolStripButton1.Image = global::Routing_Application.Properties.Resources.chart;
+            this.toolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Transparent;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(80, 50);
+            this.toolStripButton1.Text = "toolStripButton_chartt";
+            this.toolStripButton1.ToolTipText = "Chart";
+            this.toolStripButton1.Click += new System.EventHandler(this.char_paper_eng_1);
             // 
-            // generate_population
+            // menuFileNew
             // 
-            this.generate_population.AutoSize = false;
-            this.generate_population.BackColor = System.Drawing.Color.LawnGreen;
-            this.generate_population.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.generate_population.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.generate_population.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.generate_population.Image = global::Routing_Application.Properties.Resources.chart;
-            this.generate_population.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.generate_population.ImageTransparentColor = System.Drawing.Color.Transparent;
-            this.generate_population.Name = "generate_population";
-            this.generate_population.Size = new System.Drawing.Size(80, 50);
-            this.generate_population.Text = "Generate";
-            this.generate_population.ToolTipText = "Generate population";
-            this.generate_population.Click += new System.EventHandler(this.generate_population_Click);
+            this.menuFileNew.Image = global::Routing_Application.Properties.Resources.document_new;
+            this.menuFileNew.Name = "menuFileNew";
+            this.menuFileNew.Size = new System.Drawing.Size(145, 26);
+            this.menuFileNew.Text = "New ...";
+            this.menuFileNew.Click += new System.EventHandler(this.MenuFileNew_Click);
             // 
-            // remove_population
+            // menuFileOpen
             // 
-            this.remove_population.AutoSize = false;
-            this.remove_population.BackColor = System.Drawing.Color.Yellow;
-            this.remove_population.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.remove_population.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.remove_population.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.remove_population.Image = global::Routing_Application.Properties.Resources.chart;
-            this.remove_population.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.remove_population.ImageTransparentColor = System.Drawing.Color.Transparent;
-            this.remove_population.Margin = new System.Windows.Forms.Padding(10, 1, 10, 2);
-            this.remove_population.Name = "remove_population";
-            this.remove_population.Size = new System.Drawing.Size(80, 50);
-            this.remove_population.Text = "Remove";
-            this.remove_population.ToolTipText = "Remove population";
-            this.remove_population.Click += new System.EventHandler(this.remove_population_Click);
+            this.menuFileOpen.Image = global::Routing_Application.Properties.Resources.document_open;
+            this.menuFileOpen.Name = "menuFileOpen";
+            this.menuFileOpen.Size = new System.Drawing.Size(145, 26);
+            this.menuFileOpen.Text = "Open";
+            this.menuFileOpen.Click += new System.EventHandler(this.MenuFileOpen_Click);
             // 
-            // toolStrip1
+            // menuFileSaveAs
             // 
-            this.toolStrip1.AutoSize = false;
-            this.toolStrip1.BackColor = System.Drawing.Color.AliceBlue;
-            this.toolStrip1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.toolStrip1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.toolStrip1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.toolStrip1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton_Ga,
-            this.toolStripButton_PSO,
-            this.toolStripButton_FA,
-            this.toolStripButton_ABC,
-            this.toolStripButton_ACO,
-            this.create_paths});
-            this.toolStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Table;
-            this.toolStrip1.Location = new System.Drawing.Point(1111, 54);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.toolStrip1.Size = new System.Drawing.Size(200, 646);
-            this.toolStrip1.TabIndex = 6;
-            this.toolStrip1.Text = "toolStrip1";
+            this.menuFileSaveAs.Image = global::Routing_Application.Properties.Resources.save;
+            this.menuFileSaveAs.Name = "menuFileSaveAs";
+            this.menuFileSaveAs.Size = new System.Drawing.Size(145, 26);
+            this.menuFileSaveAs.Text = "Save as ...";
+            this.menuFileSaveAs.Click += new System.EventHandler(this.MenuFileSaveAs_Click);
             // 
-            // toolStripButton_Ga
+            // menuFileSave
             // 
-            this.toolStripButton_Ga.AutoSize = false;
-            this.toolStripButton_Ga.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.toolStripButton_Ga.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton_Ga.Font = new System.Drawing.Font("Arial", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.toolStripButton_Ga.Image = global::Routing_Application.Properties.Resources.start256_24877;
-            this.toolStripButton_Ga.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_Ga.Name = "toolStripButton_Ga";
-            this.toolStripButton_Ga.Size = new System.Drawing.Size(200, 80);
-            this.toolStripButton_Ga.Text = "GA";
-            this.toolStripButton_Ga.Click += new System.EventHandler(this.toolStripButton_GA_Click);
+            this.menuFileSave.Image = global::Routing_Application.Properties.Resources.document_save_as;
+            this.menuFileSave.Name = "menuFileSave";
+            this.menuFileSave.Size = new System.Drawing.Size(145, 26);
+            this.menuFileSave.Text = "Save";
+            this.menuFileSave.Click += new System.EventHandler(this.MenuFileSave_Click);
             // 
-            // toolStripButton_PSO
+            // menuFileExit
             // 
-            this.toolStripButton_PSO.AutoSize = false;
-            this.toolStripButton_PSO.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.toolStripButton_PSO.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton_PSO.Font = new System.Drawing.Font("Arial", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.toolStripButton_PSO.Image = global::Routing_Application.Properties.Resources.start256_24877;
-            this.toolStripButton_PSO.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_PSO.Name = "toolStripButton_PSO";
-            this.toolStripButton_PSO.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton_PSO.Size = new System.Drawing.Size(200, 80);
-            this.toolStripButton_PSO.Text = "PSO";
-            this.toolStripButton_PSO.Click += new System.EventHandler(this.toolStripButton_PSO_Click);
+            this.menuFileExit.Image = global::Routing_Application.Properties.Resources.exit;
+            this.menuFileExit.Name = "menuFileExit";
+            this.menuFileExit.Size = new System.Drawing.Size(145, 26);
+            this.menuFileExit.Text = "Exit";
+            this.menuFileExit.Click += new System.EventHandler(this.MenuFileExit_Click);
             // 
-            // toolStripButton_FA
+            // menuToolsEdit
             // 
-            this.toolStripButton_FA.AutoSize = false;
-            this.toolStripButton_FA.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.toolStripButton_FA.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton_FA.Font = new System.Drawing.Font("Arial", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.toolStripButton_FA.Image = global::Routing_Application.Properties.Resources.start256_24877;
-            this.toolStripButton_FA.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_FA.Name = "toolStripButton_FA";
-            this.toolStripButton_FA.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton_FA.Size = new System.Drawing.Size(200, 80);
-            this.toolStripButton_FA.Text = "FA";
-            this.toolStripButton_FA.Click += new System.EventHandler(this.toolStripButton_FA_Click);
+            this.menuToolsEdit.Image = global::Routing_Application.Properties.Resources.cursor;
+            this.menuToolsEdit.Name = "menuToolsEdit";
+            this.menuToolsEdit.Size = new System.Drawing.Size(226, 26);
+            this.menuToolsEdit.Text = "Edit";
+            this.menuToolsEdit.Click += new System.EventHandler(this.menuToolsEdit_Click);
             // 
-            // toolStripButton_ABC
+            // menuToolsPutRouter
             // 
-            this.toolStripButton_ABC.AutoSize = false;
-            this.toolStripButton_ABC.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.toolStripButton_ABC.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton_ABC.Font = new System.Drawing.Font("Arial", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.toolStripButton_ABC.Image = global::Routing_Application.Properties.Resources.start256_24877;
-            this.toolStripButton_ABC.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_ABC.Name = "toolStripButton_ABC";
-            this.toolStripButton_ABC.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton_ABC.Size = new System.Drawing.Size(200, 80);
-            this.toolStripButton_ABC.Text = "ABC";
-            this.toolStripButton_ABC.Click += new System.EventHandler(this.toolStripButton_ABC_Click);
+            this.menuToolsPutRouter.Image = global::Routing_Application.Properties.Resources.router16;
+            this.menuToolsPutRouter.Name = "menuToolsPutRouter";
+            this.menuToolsPutRouter.Size = new System.Drawing.Size(226, 26);
+            this.menuToolsPutRouter.Text = "Insert router";
+            this.menuToolsPutRouter.Click += new System.EventHandler(this.menuToolsInsertRouter_Click);
             // 
-            // toolStripButton_ACO
+            // menuToolsInsertWire
             // 
-            this.toolStripButton_ACO.AutoSize = false;
-            this.toolStripButton_ACO.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.toolStripButton_ACO.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton_ACO.Font = new System.Drawing.Font("Arial", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.toolStripButton_ACO.Image = global::Routing_Application.Properties.Resources.start256_24877;
-            this.toolStripButton_ACO.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton_ACO.Name = "toolStripButton_ACO";
-            this.toolStripButton_ACO.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton_ACO.Size = new System.Drawing.Size(200, 80);
-            this.toolStripButton_ACO.Text = "ACO";
-            this.toolStripButton_ACO.Click += new System.EventHandler(this.toolStripButton_ACO_Click);
+            this.menuToolsInsertWire.Image = ((System.Drawing.Image)(resources.GetObject("menuToolsInsertWire.Image")));
+            this.menuToolsInsertWire.Name = "menuToolsInsertWire";
+            this.menuToolsInsertWire.Size = new System.Drawing.Size(226, 26);
+            this.menuToolsInsertWire.Text = "Insert wire";
+            this.menuToolsInsertWire.Click += new System.EventHandler(this.menuToolsInsertWire_Click);
             // 
-            // create_paths
+            // menuToolsCreateText
             // 
-            this.create_paths.AutoSize = false;
-            this.create_paths.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.create_paths.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.create_paths.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.create_paths.Image = global::Routing_Application.Properties.Resources.start256_24877;
-            this.create_paths.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.create_paths.Name = "create_paths";
-            this.create_paths.RightToLeftAutoMirrorImage = true;
-            this.create_paths.Size = new System.Drawing.Size(200, 80);
-            this.create_paths.Text = "Create paths";
-            this.create_paths.Click += new System.EventHandler(this.create_paths_Click);
+            this.menuToolsCreateText.Image = global::Routing_Application.Properties.Resources.Editing_Text_icon;
+            this.menuToolsCreateText.Name = "menuToolsCreateText";
+            this.menuToolsCreateText.Size = new System.Drawing.Size(226, 26);
+            this.menuToolsCreateText.Text = "Text";
+            this.menuToolsCreateText.Click += new System.EventHandler(this.menuToolsCreateText_Click);
+            // 
+            // menuToolsHorAlignment
+            // 
+            this.menuToolsHorAlignment.Image = ((System.Drawing.Image)(resources.GetObject("menuToolsHorAlignment.Image")));
+            this.menuToolsHorAlignment.Name = "menuToolsHorAlignment";
+            this.menuToolsHorAlignment.Size = new System.Drawing.Size(226, 26);
+            this.menuToolsHorAlignment.Text = "Horizontal alignment";
+            this.menuToolsHorAlignment.Click += new System.EventHandler(this.menuToolsHorAlignment_Click);
+            // 
+            // menuToolsVertAlignment
+            // 
+            this.menuToolsVertAlignment.Image = ((System.Drawing.Image)(resources.GetObject("menuToolsVertAlignment.Image")));
+            this.menuToolsVertAlignment.Name = "menuToolsVertAlignment";
+            this.menuToolsVertAlignment.Size = new System.Drawing.Size(226, 26);
+            this.menuToolsVertAlignment.Text = "Vertical alignment";
+            this.menuToolsVertAlignment.Click += new System.EventHandler(this.menuToolsVertAlignment_Click);
+            // 
+            // menuToolsReset
+            // 
+            this.menuToolsReset.Image = global::Routing_Application.Properties.Resources.power_reset_1847;
+            this.menuToolsReset.Name = "menuToolsReset";
+            this.menuToolsReset.Size = new System.Drawing.Size(226, 26);
+            this.menuToolsReset.Text = "Reset";
+            this.menuToolsReset.Click += new System.EventHandler(this.menuToolsReset_Click);
+            // 
+            // menuToolsDeleteAll
+            // 
+            this.menuToolsDeleteAll.Image = global::Routing_Application.Properties.Resources.cancel;
+            this.menuToolsDeleteAll.Name = "menuToolsDeleteAll";
+            this.menuToolsDeleteAll.Size = new System.Drawing.Size(226, 26);
+            this.menuToolsDeleteAll.Text = "Delete all";
+            this.menuToolsDeleteAll.Click += new System.EventHandler(this.menuToolsDeleteAll_Click);
+            // 
+            // GA
+            // 
+            this.GA.Image = ((System.Drawing.Image)(resources.GetObject("GA.Image")));
+            this.GA.Name = "GA";
+            this.GA.Size = new System.Drawing.Size(184, 26);
+            this.GA.Text = "GA";
+            this.GA.Click += new System.EventHandler(this.toolStripButton_GA_Click);
+            // 
+            // PSO
+            // 
+            this.PSO.Image = ((System.Drawing.Image)(resources.GetObject("PSO.Image")));
+            this.PSO.Name = "PSO";
+            this.PSO.Size = new System.Drawing.Size(184, 26);
+            this.PSO.Text = "PSO";
+            this.PSO.Click += new System.EventHandler(this.toolStripButton_PSO_Click);
+            // 
+            // FA
+            // 
+            this.FA.Image = ((System.Drawing.Image)(resources.GetObject("FA.Image")));
+            this.FA.Name = "FA";
+            this.FA.Size = new System.Drawing.Size(184, 26);
+            this.FA.Text = "FA";
+            this.FA.Click += new System.EventHandler(this.toolStripButton_FA_Click);
+            // 
+            // ABC
+            // 
+            this.ABC.Image = ((System.Drawing.Image)(resources.GetObject("ABC.Image")));
+            this.ABC.Name = "ABC";
+            this.ABC.Size = new System.Drawing.Size(184, 26);
+            this.ABC.Text = "ABC";
+            this.ABC.Click += new System.EventHandler(this.toolStripButton_ABC_Click);
+            // 
+            // ACO
+            // 
+            this.ACO.Image = ((System.Drawing.Image)(resources.GetObject("ACO.Image")));
+            this.ACO.Name = "ACO";
+            this.ACO.Size = new System.Drawing.Size(184, 26);
+            this.ACO.Text = "ACO";
+            this.ACO.Click += new System.EventHandler(this.toolStripButton_ACO_Click);
+            // 
+            // generateToolStripMenuItem
+            // 
+            this.generateToolStripMenuItem.Name = "generateToolStripMenuItem";
+            this.generateToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.generateToolStripMenuItem.Text = "generate";
+            this.generateToolStripMenuItem.Click += new System.EventHandler(this.generate_population_Click);
+            // 
+            // removeToolStripMenuItem
+            // 
+            this.removeToolStripMenuItem.Name = "removeToolStripMenuItem";
+            this.removeToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.removeToolStripMenuItem.Text = "remove";
+            this.removeToolStripMenuItem.Click += new System.EventHandler(this.remove_population_Click);
+            // 
+            // createPathToolStripMenuItem
+            // 
+            this.createPathToolStripMenuItem.Name = "createPathToolStripMenuItem";
+            this.createPathToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.createPathToolStripMenuItem.Text = "create path";
+            this.createPathToolStripMenuItem.Click += new System.EventHandler(this.create_paths_Click);
             // 
             // Main
             // 
@@ -893,7 +769,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(1311, 700);
-            this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.ctlStatusBarFile);
             this.Controls.Add(this.ctlStatusBarStatus);
             this.Controls.Add(this.ctlToolBar);
@@ -919,8 +794,6 @@
             this.ctlStatusBarFile.PerformLayout();
             this.ctlToolBar.ResumeLayout(false);
             this.ctlToolBar.PerformLayout();
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -988,17 +861,11 @@
         public System.Windows.Forms.ToolStripButton btnToolDeleteAll;
         public System.Windows.Forms.ToolStripButton btnToolReset;
         private System.Windows.Forms.ToolStrip ctlToolBar;
-        private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton toolStripButton_Ga;
-        public System.Windows.Forms.ToolStripButton toolStripButton_chartt;
         public System.Windows.Forms.ToolStripMenuItem ACO;
-        private System.Windows.Forms.ToolStripButton toolStripButton_ACO;
-        private System.Windows.Forms.ToolStripButton toolStripButton_PSO;
-        private System.Windows.Forms.ToolStripButton toolStripButton_ABC;
-        private System.Windows.Forms.ToolStripButton toolStripButton_FA;
-        public System.Windows.Forms.ToolStripButton generate_population;
-        public System.Windows.Forms.ToolStripButton remove_population;
-        private System.Windows.Forms.ToolStripButton create_paths;
+        public System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.ToolStripMenuItem generateToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem removeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem createPathToolStripMenuItem;
     }
 }
 
