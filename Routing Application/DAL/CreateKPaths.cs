@@ -154,7 +154,7 @@ namespace Routing_Application.DAL
         }
         public void CreateResult(List<string> result)
         {
-            var path = Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location) + "/R.txt";
+            var path = Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location) + "/../Result.txt";
             File.WriteAllLines(path, result);
         }
     }
