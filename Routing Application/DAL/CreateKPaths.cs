@@ -154,7 +154,7 @@ namespace Routing_Application.DAL
         }
         public void CreateResult(List<string> result)
         {
-            File.WriteAllLines("Result.txt", result);
+            File.WriteAllLines("C:/Users/nguye/Desktop/SDN/SomePrograms/SDN_CSharp/Routing Application/bin/Result.txt", result);
         }
     }
 }
