@@ -149,12 +149,29 @@ namespace Routing_Application.DAL
                 string result_1 = string.Join(",", result_int[k1]);
                 result.Add(result_1);
             }
-            CreateResult(result);
+            //CreateResult(result);
+            CreateResult();
             return ketqua_0;
         }
-        public void CreateResult(List<string> result)
+        public void CreateResult()
         {
-                File.WriteAllLines("Result.txt", result);
+                //File.WriteAllLines("Result.txt", result);
+            if (!File.Exists("FILENAME.txt")) // If file does not exists
+            {
+                File.Create("FILENAME.txt").Close(); // Create file
+                using (StreamWriter sw = File.AppendText("FILENAME.txt"))
+                {
+                    sw.WriteLine("WRITE SOME TEXT"); // Write text to .txt file
+                }
+            }
+            else // If file already exists
+            {
+                // File.WriteAllText("FILENAME.txt", String.Empty); // Clear file
+                using (StreamWriter sw = File.AppendText("FILENAME.txt"))
+                {
+                    sw.WriteLine("WRITE SOME TEXT"); // Write text to .txt file
+                }
+            }
         }
     }
 }
