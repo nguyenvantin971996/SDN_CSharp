@@ -29,11 +29,11 @@ namespace Routing_Application.Forms
 
             if (Counts.Count > 70)
             {
-                ctlChart.ChartAreas[0].Area3DStyle.PointDepth = 120;
+                ctlChart.ChartAreas[0].Area3DStyle.PointDepth = 150;
             }
             else
             {
-                ctlChart.ChartAreas[0].Area3DStyle.PointDepth = 60;
+                ctlChart.ChartAreas[0].Area3DStyle.PointDepth = 100;
             }
         }
 

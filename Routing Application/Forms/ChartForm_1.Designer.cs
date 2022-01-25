@@ -84,9 +84,14 @@
             // 
             // ctlChart
             // 
-            this.ctlChart.BackColor = System.Drawing.Color.Turquoise;
             this.ctlChart.BorderlineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Solid;
             chartArea1.Area3DStyle.Enable3D = true;
+            chartArea1.AxisX.IsLabelAutoFit = false;
+            chartArea1.AxisX.LabelStyle.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            chartArea1.AxisX.TitleFont = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea1.AxisY.IsLabelAutoFit = false;
+            chartArea1.AxisY.LabelStyle.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            chartArea1.BackColor = System.Drawing.Color.Transparent;
             chartArea1.Name = "ChartArea1";
             this.ctlChart.ChartAreas.Add(chartArea1);
             legend1.Enabled = false;
@@ -95,7 +100,7 @@
             this.ctlChart.Location = new System.Drawing.Point(26, 12);
             this.ctlChart.Name = "ctlChart";
             series1.ChartArea = "ChartArea1";
-            series1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            series1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             series1.IsValueShownAsLabel = true;
             series1.LabelBackColor = System.Drawing.Color.Orange;
             series1.Legend = "Legend1";

@@ -4,6 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using System.IO;
+using System.Threading.Tasks;
 namespace Routing_Application.DAL
 {
 
@@ -131,7 +133,28 @@ namespace Routing_Application.DAL
                         wire.Pen = ppp;
                     }
             }
+            List<List<int>> result_int = new List<List<int>>();
+            for (int k1 = 0; k1 < K_paths; k1++)
+            {
+                List<int> aa = new List<int>();
+                for (int k2 = 0; k2 < PATHS[k1].path_routers.Count(); k2++)
+                {
+                    aa.Add(PATHS[k1].path_routers[k2].Number);
+                }
+                result_int.Add(new List<int>(aa));
+            }
+            List<string> result = new List<string>();
+            for (int k1 = 0; k1 < K_paths; k1++)
+            {
+                string result_1 = string.Join(",", result_int[k1]);
+                result.Add(result_1);
+            }
+            CreateResult(result);
             return ketqua_0;
+        }
+        public void CreateResult(List<string> result)
+        {
+                File.WriteAllLines("Result.txt", result);
         }
     }
 }
